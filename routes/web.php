@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index1');
 });
 
 #Route::get('thanks', 'PagesController@thanks');
