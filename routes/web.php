@@ -11,10 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-#Route::get('thanks', 'PagesController@thanks');
+
+Route::get('/', 'PagesController@homeview');
 
 Route::post('thanks', 'PagesController@thanks')->name('thanks');

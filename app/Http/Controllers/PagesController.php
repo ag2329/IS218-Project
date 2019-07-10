@@ -12,4 +12,8 @@ class PagesController extends Controller
        #return $name;
        return view('thanks')->with('name', $name);
     }
+
+    function homeview(){
+        return view('index1');
+    }
 }
